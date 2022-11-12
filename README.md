@@ -1,10 +1,25 @@
-# Anomaly Detection in Time-Series!
+
+# Deep Learning for Time Series Anomaly Detection
 *Time-Series Anomaly Detection Comprehensive Benchmark*
 
 This repository updates the comprehensive list of classic and state-of-the-art methods and datasets for Anomaly Decetion in Time-Series. This is part of an onging research at Time Series Analytics Lab, Monash University.
 
+If you use this repository in your workس, please cite the main article:
 
-## Datasets
+[-] Darban, Z. Z., Webb, G. I., Pan, S., Aggarwal, C. C., & Salehi, M. (2022). Deep Learning for Time Series Anomaly Detection: A Survey. doi:10.48550/ARXIV.2211.05244 [[arXiv](https://arxiv.org/abs/2211.05244)]
+
+	@misc{darban_deep_ts_survey_2022,
+	  doi = {10.48550/ARXIV.2211.05244},
+	  url = {https://arxiv.org/abs/2211.05244},
+	  author = {Darban, Zahra Zamanzadeh and Webb, Geoffrey I. and Pan, Shirui and Aggarwal, Charu C. and Salehi, Mahsa},
+	  title = {Deep Learning for Time Series Anomaly Detection: A Survey},
+	  publisher = {arXiv},
+	  year = {2022},
+	  copyright = {arXiv.org perpetual, non-exclusive license}
+	}
+
+
+## Datasets/Benchmarks for time series anomaly detection
 
 |Dataset/Benchmark          |Real/Synth|MTS/UTS|# Samples       |# Entities|# Dim|Domain                                    |
 |---------------------------|----------|-------|----------------|----------|-----|------------------------------------------|
