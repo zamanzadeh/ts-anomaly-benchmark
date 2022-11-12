@@ -1,5 +1,5 @@
 
-# Deep Learning for Time Series Anomaly Detection
+# Deep Learning for Time Series Anomaly Detection (Models and Datasets)
 *Time-Series Anomaly Detection Comprehensive Benchmark*
 
 This repository updates the comprehensive list of classic and state-of-the-art methods and datasets for Anomaly Decetion in Time-Series. This is part of an onging research at Time Series Analytics Lab, Monash University.
