@@ -79,17 +79,17 @@ If you use this repository in your works, please cite the main article:
 ## Univariate Deep Anomaly Detection Models in Time Series
 | A[^1] | MA[^2] | Model | Su/Un[^3] | Input | P/S[^4] |
 | --- | --- | --- | --- | --- | --- |
-| **Forecasting** | RNN (\ref{sub:for-rnn}) | LSTM-AD [^1^] | Un | P | Point |
-|^^ | | LSTM RNN [^2^] | Semi | P | Subseq |
-|^^ | | LSTM-based [^3^] | Un | W | - |
-|^^ | | TCQSA [^4^] | Su | P | - |
-|^^ | HTM (\ref{sub:for-htm}) | Numenta HTM [^5^] | Un | - | - |
-|^^ | | Multi HTM [^6^] | Un | - | - |
-|^^ | CNN (\ref{sub:for-cnn}) | SR-CNN [^7^] | Un | W | Point + Subseq |
-| **Reconstruction** | VAE (\ref{sub:rec-vae}) | Donut [^8^] | Un | W | Subseq |
-|^^ | | Buzz [^9^] | Un | W | Subseq |
-|^^ | | Bagel [^10^] | Un | W | Subseq |
-|^^ | AE (\ref{sub:rec-ae}) | EncDec-AD [^11^] | Semi | W | Point |
+| **Forecasting** | RNN | LSTM-AD [^1^] | Un | P | Point |
+|^ | | LSTM RNN [^2^] | Semi | P | Subseq |
+|^ | | LSTM-based [^3^] | Un | W | - |
+|^ | | TCQSA [^4^] | Su | P | - |
+|^ | HTM | Numenta HTM [^5^] | Un | - | - |
+|^ | | Multi HTM [^6^] | Un | - | - |
+|^ | CNN | SR-CNN [^7^] | Un | W | Point + Subseq |
+| **Reconstruction** | VAE | Donut [^8^] | Un | W | Subseq |
+|^ | | Buzz [^9^] | Un | W | Subseq |
+|^ | | Bagel [^10^] | Un | W | Subseq |
+|^ | AE | EncDec-AD [^11^] | Semi | W | Point |
   
 [^1]: A: Approach
 [^2]: MA: Main Approach
