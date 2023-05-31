@@ -91,5 +91,8 @@ If you use this repository in your works, please cite the main article:
 | | | Bagel [^10^] | Un | W | Subseq |
 | | AE (\ref{sub:rec-ae}) | EncDec-AD [^11^] | Semi | W | Point |
   
+[^1]: A: Approach
+[^2]: Su/Un: Supervised/Unsupervised | Values: [Su: Supervised, Un: Unsupervised, Semi: Semi-supervised, Self: Self-supervised]
+[^3]: P/S: Point/Sub-sequence
 
 
