@@ -75,21 +75,25 @@ If you use this repository in your works, please cite the main article:
 |[Yahoo](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70&guccounter=1)|Real/Synth|UTS    |572,966         |367       |1    |Multiple domains                          |
 
 
+
 ## Univariate Deep Anomaly Detection Models in Time Series
-| A^1 | MA^1 | Model | Su/Un^2 | Input | P/S^3 |
+
+| A (Note 1) | MA (Note 1) | Model | Su/Un (Note 2) | Input | P/S (Note 3) |
 | --- | --- | --- | --- | --- | --- |
-| | | | | | |
-| **Forecasting** | RNN (\ref{sub:for-rnn}) | LSTM-AD [^1^] | Un | P | Point |
-| | | LSTM RNN [^2^] | Semi | P | Subseq |
-| | | LSTM-based [^3^] | Un | W | - |
-| | | TCQSA [^4^] | Su | P | - |
-| | HTM (\ref{sub:for-htm}) | Numenta HTM [^5^] | Un | - | - |
-| | | Multi HTM [^6^] | Un | - | - |
-| | CNN (\ref{sub:for-cnn}) | SR-CNN [^7^] | Un | W | Point + Subseq |
-| **Reconstruction** | VAE (\ref{sub:rec-vae}) | Donut [^8^] | Un | W | Subseq |
-| | | Buzz [^9^] | Un | W | Subseq |
-| | | Bagel [^10^] | Un | W | Subseq |
-| | AE (\ref{sub:rec-ae}) | EncDec-AD [^11^] | Semi | W | Point |
-[^1^]: A: Approach
-[^2^]: Su/Un: Supervised/Unsupervised | Values: [Su: Supervised, Un: Unsupervised, Semi: Semi-supervised, Self: Self-supervised]
-[^3^]: P/S: Point/Sub-sequence
+| **Forecasting** | RNN (\ref{sub:for-rnn}) | LSTM-AD [1] | Un | P | Point |
+| | | LSTM RNN [2] | Semi | P | Subseq |
+| | | LSTM-based [3] | Un | W | - |
+| | | TCQSA [4] | Su | P | - |
+| | HTM (\ref{sub:for-htm}) | Numenta HTM [5] | Un | - | - |
+| | | Multi HTM [6] | Un | - | - |
+| | CNN (\ref{sub:for-cnn}) | SR-CNN [7] | Un | W | Point + Subseq |
+| **Reconstruction** | VAE (\ref{sub:rec-vae}) | Donut [8] | Un | W | Subseq |
+| | | Buzz [9] | Un | W | Subseq |
+| | | Bagel [10] | Un | W | Subseq |
+| | AE (\ref{sub:rec-ae}) | EncDec-AD [11] | Semi | W | Point |
+
+(Note 1): A = Approach, MA = Your definition for MA  
+(Note 2): Su/Un = Supervised/Unsupervised. Values: Su = Supervised, Un = Unsupervised, Semi = Semi-supervised, Self = Self-supervised  
+(Note 3): P/S = Point/Sub-sequence  
+
+
