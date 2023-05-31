@@ -77,7 +77,7 @@ If you use this repository in your works, please cite the main article:
 
 
 ## Univariate Deep Anomaly Detection Models in Time Series
-| A[^1] | MA[^1] | Model | Su/Un[^2] | Input | P/S[^3] |
+| A[^1] | MA[^2] | Model | Su/Un[^3] | Input | P/S[^4] |
 | --- | --- | --- | --- | --- | --- |
 | **Forecasting** | RNN (\ref{sub:for-rnn}) | LSTM-AD [^1^] | Un | P | Point |
 | | | LSTM RNN [^2^] | Semi | P | Subseq |
@@ -92,7 +92,8 @@ If you use this repository in your works, please cite the main article:
 | | AE (\ref{sub:rec-ae}) | EncDec-AD [^11^] | Semi | W | Point |
   
 [^1]: A: Approach
-[^2]: Su/Un: Supervised/Unsupervised | Values: [Su: Supervised, Un: Unsupervised, Semi: Semi-supervised, Self: Self-supervised]
-[^3]: P/S: Point/Sub-sequence
+[^2]: MA: Main Approach
+[^3]: Su/Un: Supervised/Unsupervised | Values: [Su: Supervised, Un: Unsupervised, Semi: Semi-supervised, Self: Self-supervised]
+[^4]: P/S: Point/Sub-sequence
 
 
