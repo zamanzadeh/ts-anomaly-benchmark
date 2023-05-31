@@ -73,3 +73,23 @@ If you use this repository in your works, please cite the main article:
 |[SensoreScope](https://doi.org/10.5281/zenodo.2654726)|Real      |UTS    |621,874         |23        |1    |Internet of things (IoT)                  |
 |[Space Shuttle Dataset](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)|Real      |UTS    |15,000          |15        |1    |Aerospace                                 |
 |[Yahoo](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70&guccounter=1)|Real/Synth|UTS    |572,966         |367       |1    |Multiple domains                          |
+
+
+## Univariate Deep Anomaly Detection Models in Time Series
+| A^1 | MA^1 | Model | Su/Un^2 | Input | P/S^3 |
+| --- | --- | --- | --- | --- | --- |
+| | | | | | |
+| **Forecasting** | RNN (\ref{sub:for-rnn}) | LSTM-AD [^1^] | Un | P | Point |
+| | | LSTM RNN [^2^] | Semi | P | Subseq |
+| | | LSTM-based [^3^] | Un | W | - |
+| | | TCQSA [^4^] | Su | P | - |
+| | HTM (\ref{sub:for-htm}) | Numenta HTM [^5^] | Un | - | - |
+| | | Multi HTM [^6^] | Un | - | - |
+| | CNN (\ref{sub:for-cnn}) | SR-CNN [^7^] | Un | W | Point + Subseq |
+| **Reconstruction** | VAE (\ref{sub:rec-vae}) | Donut [^8^] | Un | W | Subseq |
+| | | Buzz [^9^] | Un | W | Subseq |
+| | | Bagel [^10^] | Un | W | Subseq |
+| | AE (\ref{sub:rec-ae}) | EncDec-AD [^11^] | Semi | W | Point |
+[^1^]: A: Approach
+[^2^]: Su/Un: Supervised/Unsupervised | Values: [Su: Supervised, Un: Unsupervised, Semi: Semi-supervised, Self: Self-supervised]
+[^3^]: P/S: Point/Sub-sequence
