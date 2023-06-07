@@ -96,7 +96,7 @@ If you use this repository in your works, please cite the main article:
 ## Multivariate Deep Anomaly Detection Models in Time Series
 	
 | A<sup>[1](#Approach)</sup>  | MA<sup>[2](#Main)</sup> | Model | T/S$^3$ | Su/Un<sup>[4](#Su)</sup>  | Input | Int$^5$ | P/S<sup>[6](#point)</sup> | Stc$^7$ | Inc$^8$ | Code |
-|-------|--------|-------|---------|-----------|-------|----------|---------|---------|---------|
+|-------|--------|-------|---------|-----------|-------|----------|---------|---------|---------|---------|
 | Forecasting | RNN | LSTM-NDT <a href="#ref12" id="ref12">[12]</a> | T | Un | W | &#10003; | Subseq | | |
 | Forecasting | RNN | DeepLSTM <a href="#ref13" id="ref13">[13]</a> | T | Semi | P | | Point | | |
 | Forecasting | RNN | LSTM-PRED <a href="#ref14" id="ref14">[14]</a> | T | Un | W | &#10003; | - | | |
