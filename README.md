@@ -80,7 +80,7 @@ If you use this repository in your works, please cite the main article:
 
 | A<sup>[1](#Approach)</sup> | MA<sup>[2](#Main)</sup> | Model | Su/Un<sup>[3](#Su)</sup> | Input | P/S<sup>[4](#point)</sup> | Code |
 | --- | --- | --- | --- | --- | --- | --- |
-| Forecasting | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Un | P | Point |
+| Forecasting | RNN | LSTM-AD <a  id="ref1" href="#ref1">[1]</a> | Un | P | Point |
 | Forecasting | RNN | LSTM RNN <a href="#ref2" id="ref2">[2]</a> | Semi | P | Subseq |
 | Forecasting | RNN | LSTM-based <a href="#ref3" id="ref3">[3]</a> | Un | W | - |
 | Forecasting | RNN | TCQSA <a href="#ref4" id="ref4">[4]</a> | Su | P | - |
