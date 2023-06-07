@@ -140,7 +140,7 @@ If you use this repository in your works, please cite the main article:
 | Reconstruction | Transformer | TranAD <a href="#ref51" id="ref51">[51]</a> | T | Un | W | &#10003; | Subseq | | |
 | Reconstruction | Transformer | DCT-GAN* <a href="#ref49" id="ref49">[49]</a> | T | Un | W | | - | | |
 | Reconstruction | Transformer | MT-RVAE* <a href="#ref43" id="ref43">[43]</a> | ST | Un | W | | - | | |
-| Hybrid | AE | CAE-M <a href="#ref52" id="ref52">[55]</a> | ST | Un | W | | Subseq | | |
+| Hybrid | AE | CAE-M <a href="#ref52" id="ref52">[52]</a> | ST | Un | W | | Subseq | | |
 | Hybrid | AE | NSIBF* <a href="#ref53" id="ref53">[53]</a> | T | Un | W | | Subseq | | |
 | Hybrid | RNN | NSIBF* <a href="#ref53" id="ref53">[53]</a> | T | Un | W | | Subseq | | |
 | Hybrid | RNN | TAnoGAN <a href="#ref54" id="ref54">[54]</a> | T | Un | W | | Subseq | | |
