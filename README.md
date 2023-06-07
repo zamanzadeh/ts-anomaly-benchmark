@@ -78,7 +78,7 @@ If you use this repository in your works, please cite the main article:
  
 ## Univariate Deep Anomaly Detection Models in Time Series
 
-| A[^1] | MA[^2] | Model | Su/Un[^3] | Input | P/S[^4] | Code |
+| A<sup>[1](#Approach)</sup> | MA<sup>[2](#Main)</sup> | Model | Su/Un<sup>[3](#Su)</sup> | Input | P/S<sup>[4](#point)</sup> | Code |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Forecasting** | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Un | P | Point |
 | **Forecasting** | RNN | LSTM RNN <a href="#ref2" id="ref2">[2]</a> | Semi | P | Subseq |
@@ -92,12 +92,73 @@ If you use this repository in your works, please cite the main article:
 | **Reconstruction** | VAE | Bagel <a href="#ref10" id="ref10">[10]</a> | Un | W | Subseq |
 | **Reconstruction** | AE | EncDec-AD <a href="#ref11" id="ref11">[11]</a> | Semi | W | Point |
   
-[^1]: A: Approach
-[^2]: MA: Main Approach
-[^3]: Su/Un: Supervised/Unsupervised | Values: [Su: Supervised, Un: Unsupervised, Semi: Semi-supervised, Self: Self-supervised]
-[^4]: P/S: Point/Sub-sequence. 
 
+## Multivariate Deep Anomaly Detection Models in Time Series
+	
+| A<sup>[1](#Approach)</sup>  | MA<sup>[2](#Main)</sup> | Model | T/S$^3$ | Su/Un<sup>[4](#Su)</sup>  | Input | Int$^5$ | P/S<sup>[6](#point)</sup> | Stc$^7$ | Inc$^8$ |
+|-------|--------|-------|---------|-----------|-------|----------|---------|---------|---------|
+| Forecasting | RNN | LSTM-NDT <a href="#ref12" id="ref12">[12]</a> | T | Un | W | &#10003; | Subseq | | |
+| Forecasting | RNN | DeepLSTM <a href="#ref13" id="ref13">[13]</a> | T | Semi | P | | Point | | |
+| Forecasting | RNN | LSTM-PRED <a href="#ref14" id="ref14">[14]</a> | T | Un | W | &#10003; | - | | |
+| Forecasting | RNN | LGMAD <a href="#ref15" id="ref15">[15]</a> | T | Semi | P | | Point | | |
+| Forecasting | RNN | THOC <a href="#ref16" id="ref16">[16]</a> | T | Self | W | | Subseq | | |
+| Forecasting | RNN | AD-LTI <a href="#ref17" id="ref17">[17]</a> | T | Un | P | | Point (frame) | | |
+| Forecasting | CNN | DeepAnt <a href="#ref18" id="ref18">[18]</a> | T | Un | W | | Point + Subseq | | |
+| Forecasting | CNN | TCN-ms <a href="#ref19" id="ref19">[19]</a> | T | Semi | W | | Subseq | | |
+| Forecasting | GNN | GDN <a href="#ref20" id="ref20">[20]</a> | S | Un | W | &#10003; | - | | |
+| Forecasting | GNN | GTA* <a href="#ref21" id="ref21">[21]</a> | ST | Semi | - | | - | | |
+| Forecasting | GNN | GANF <a href="#ref22" id="ref22">[22]</a> | ST | Un | W | | | | |
+| Forecasting | HTM | RADM <a href="#ref23" id="ref23">[23]</a> | T | Un | W | | - | | |
+| Forecasting | Transformer | SAND <a href="#ref24" id="ref24">[24]</a> | T | Semi | W | | - | | |
+| Forecasting | Transformer | GTA* <a href="#ref21" id="ref21">[21]</a> | ST | Semi | - | | - | | |
+| Reconstruction | AE | AE/DAE <a href="#ref25" id="ref25">[25]</a> | T | Semi | P | | Point | | |
+| Reconstruction | AE | DAGMM <a href="#ref26" id="ref26">[26]</a> | S | Un | P | | Point | &#10003; | |
+| Reconstruction | AE | MSCRED <a href="#ref27" id="ref27">[27]</a> | ST | Un | W | &#10003; | Subseq | | |
+| Reconstruction | AE | USAD <a href="#ref28" id="ref28">[28]</a> | T | Un | W | | Point | | |
+| Reconstruction | AE | APAE <a href="#ref29" id="ref29">[29]</a> | T | Un | W | | - | | |
+| Reconstruction | AE | RANSynCoders <a href="#ref30" id="ref30">[30]</a> | ST | Un | P | &#10003; | Point | | &#10003; |
+| Reconstruction | AE | CAE-Ensemble <a href="#ref31" id="ref31">[31]</a> | T | Un | W | | Subseq | | |
+| Reconstruction | AE | AMSL <a href="#ref32" id="ref32">[32]</a> | T | Self | W | | - | | |
+| Reconstruction | VAE | LSTM-VAE <a href="#ref33" id="ref33">[33]</a> | T | Semi | P | | - | | |
+| Reconstruction | VAE | OmniAnomaly <a href="#ref34" id="ref34">[34]</a> | T | Un | W | &#10003; | Point + Subseq | &#10003; | |
+| Reconstruction | VAE | STORN <a href="#ref35" id="ref35">[35]</a> | ST | Un | P | | Point | | |
+| Reconstruction | VAE | GGM-VAE <a href="#ref36" id="ref36">[36]</a> | T | Un | W | | Subseq | | |
+| Reconstruction | VAE | SISVAE <a href="#ref37" id="ref37">[37]</a> | T | Un | W | | Point | | |
+| Reconstruction | VAE | VAE-GAN <a href="#ref38" id="ref38">[38]</a> | T | Semi | W | | Point | | |
+| Reconstruction | VAE | VELC <a href="#ref39" id="ref39">[39]</a> | T | Un | - | | - | | |
+| Reconstruction | VAE | TopoMAD <a href="#ref40" id="ref40">[40]</a> | ST | Un | W | | Subseq | &#10003; | |
+| Reconstruction | VAE | PAD <a href="#ref41" id="ref41">[41]</a> | T | Un | W | | Subseq | | |
+| Reconstruction | VAE | InterFusion <a href="#ref42" id="ref42">[42]</a> | ST | Un | W | &#10003; | Subseq | | |
+| Reconstruction | VAE | MT-RVAE* <a href="#ref43" id="ref43">[43]</a> | ST | Un | W | | - | | |
+| Reconstruction | VAE | RDSMM <a href="#ref44" id="ref44">[44]</a> | T | Un | W | | Point + Subseq | &#10003; | |
+| Reconstruction | GAN | MAD-GAN <a href="#ref45" id="ref45">[45]</a> | ST | Un | W | | Subseq | | |
+| Reconstruction | GAN | BeatGAN <a href="#ref46" id="ref46">[46]</a> | T | Un | W | | Subseq | | |
+| Reconstruction | GAN | DAEMON <a href="#ref47" id="ref47">[47]</a> | T | Un | W | &#10003; | Subseq | | |
+| Reconstruction | GAN | FGANomaly <a href="#ref48" id="ref48">[48]</a> | T | Un | W | | Point + Subseq | | |
+| Reconstruction | GAN | DCT-GAN* <a href="#ref49" id="ref49">[49]</a> | T | Un | W | | - | | |
+| Reconstruction | Transformer | Anomaly Transformer <a href="#ref50" id="ref50">[50]</a> | T | Un | W | | Subseq | | |
+| Reconstruction | Transformer | TranAD <a href="#ref51" id="ref51">[51]</a> | T | Un | W | &#10003; | Subseq | | |
+| Reconstruction | Transformer | DCT-GAN* <a href="#ref49" id="ref49">[49]</a> | T | Un | W | | - | | |
+| Reconstruction | Transformer | MT-RVAE* <a href="#ref43" id="ref43">[43]</a> | ST | Un | W | | - | | |
+| Hybrid | AE | CAE-M <a href="#ref52" id="ref52">[55]</a> | ST | Un | W | | Subseq | | |
+| Hybrid | AE | NSIBF* <a href="#ref53" id="ref53">[53]</a> | T | Un | W | | Subseq | | |
+| Hybrid | RNN | NSIBF* <a href="#ref53" id="ref53">[53]</a> | T | Un | W | | Subseq | | |
+| Hybrid | RNN | TAnoGAN <a href="#ref54" id="ref54">[54]</a> | T | Un | W | | Subseq | | |
+| Hybrid | GNN | MTAD-GAT <a href="#ref55" id="ref55">[55]</a> | ST | Self | W | &#10003; | Subseq | | |
+| Hybrid | GNN | FuSAGNet <a href="#ref56" id="ref56">[56]</a> | ST | Semi | W | | Subseq | | |
 
+---
+<sub><a name="Approach">1</a>: Approach. </sub>
+
+<sub><a name="Main">2</a>: Main Approach. </sub>
+
+<sub><a name="Su">3</a>:
+
+<sub><a name="Su">4</a>: Supervised/Unsupervised | Values: [Su: Supervised, Un: Unsupervised, Semi: Semi-supervised, Self: Self-supervised]. </sub>
+
+<sub><a name="point">6</a>: Point/Sub-sequence. </sub>
+	
+	
 ## References
 <a id="ref1" href="#ref1">[1]</a> Pankaj Malhotra, Lovekesh Vig, Gautam Shroff, Puneet Agarwal, et al . 2015. Long short term memory networks for anomaly detection in time
 series. In Proceedings of ESANN, Vol. 89. 89–94.  
