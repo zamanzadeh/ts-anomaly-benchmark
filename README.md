@@ -95,7 +95,7 @@ If you use this repository in your works, please cite the main article:
 
 ## Multivariate Deep Anomaly Detection Models in Time Series
 	
-| A<sup>[1](#Approach)</sup>  | MA<sup>[2](#Main)</sup> | Model | T/S$^3$ | Su/Un<sup>[4](#Su)</sup>  | Input | Int$^5$ | P/S<sup>[6](#point)</sup> | Stc$^7$ | Inc$^8$ |
+| A<sup>[1](#Approach)</sup>  | MA<sup>[2](#Main)</sup> | Model | T/S$^3$ | Su/Un<sup>[4](#Su)</sup>  | Input | Int$^5$ | P/S<sup>[6](#point)</sup> | Stc$^7$ | Inc$^8$ | Code |
 |-------|--------|-------|---------|-----------|-------|----------|---------|---------|---------|
 | Forecasting | RNN | LSTM-NDT <a href="#ref12" id="ref12">[12]</a> | T | Un | W | &#10003; | Subseq | | |
 | Forecasting | RNN | DeepLSTM <a href="#ref13" id="ref13">[13]</a> | T | Semi | P | | Point | | |
@@ -193,9 +193,138 @@ International Performance Computing and Communications Conference (IPCCC). IEEE,
 <a href="#ref11" id="ref11">[11]</a> Pankaj Malhotra, Anusha Ramakrishnan, Gaurangi Anand, Lovekesh Vig, Puneet Agarwal, and Gautam Shroff. 2016. LSTM-based encoder-decoder
 for multi-sensor anomaly detection. arXiv preprint arXiv:1607.00148 (2016).
 
+<a href="#ref12" id="ref12">[12]</a> Kyle Hundman, Valentino Constantinou, Christopher Laporte, Ian Colwell, and Tom Soderstrom. 2018. Detecting spacecraft anomalies using lstms
+and nonparametric dynamic thresholding. In Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining.
+387–395.
+	
+<a href="#ref13" id="ref13">[13]</a> Sucheta Chauhan and Lovekesh Vig. 2015. Anomaly detection in ECG time signals via deep long short-term memory networks. In 2015 IEEE
+International Conference on Data Science and Advanced Analytics (DSAA). IEEE, 1–7.
+	
+<a href="#ref14" id="ref14">[14]</a> Jonathan Goh, Sridhar Adepu, Marcus Tan, and Zi Shan Lee. 2017. Anomaly detection in cyber physical systems using recurrent neural networks.
+In 2017 IEEE 18th International Symposium on High Assurance Systems Engineering (HASE). IEEE, 140–145.
+	
+<a href="#ref15" id="ref15">[15]</a> Nan Ding, HaoXuan Ma, Huanbo Gao, YanHua Ma, and GuoZhen Tan. 2019. Real-time anomaly detection based on long short-Term memory and
+Gaussian Mixture Model. Computers & Electrical Engineering 79 (2019), 106458.
+	
+<a href="#ref16" id="ref16">[16]</a> Lifeng Shen, Zhuocong Li, and James Kwok. 2020. Timeseries anomaly detection using temporal hierarchical one-class network. Advances in
+Neural Information Processing Systems 33 (2020), 13016–13026.
+	
+<a href="#ref17" id="ref17">[17]</a> Wentai Wu, Ligang He, Weiwei Lin, Yi Su, Yuhua Cui, Carsten Maple, and Stephen A Jarvis. 2020. Developing an unsupervised real-time anomaly
+detection scheme for time series with multi-seasonality. IEEE Transactions on Knowledge and Data Engineering (2020).
+	
+<a href="#ref18" id="ref18">[18]</a> Mohsin Munir, Shoaib Ahmed Siddiqui, Andreas Dengel, and Sheraz Ahmed. 2018. DeepAnT: A deep learning approach for unsupervised anomaly
+detection in time series. Ieee Access 7 (2018), 1991–2005.
+	
+<a href="#ref19" id="ref19">[19]</a> Yangdong He and Jiabao Zhao. 2019. Temporal convolutional networks for anomaly detection in time series. In Journal of Physics: Conference
+Series, Vol. 1213. IOP Publishing, 042050.
+	
+<a href="#ref20" id="ref20">[20]</a> Ailin Deng and Bryan Hooi. 2021. Graph neural network-based anomaly detection in multivariate time series. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 35. 4027–4035.
+	
+<a href="#ref21" id="ref21">[21]</a> Zekai Chen, Dingshuo Chen, Xiao Zhang, Zixuan Yuan, and Xiuzhen Cheng. 2021. Learning graph structures with transformer for multivariate
+time series anomaly detection in iot. IEEE Internet of Things Journal (2021).
+	
+<a href="#ref22" id="ref22">[22]</a> Enyan Dai and Jie Chen. 2022. Graph-Augmented Normalizing Flows for Anomaly Detection of Multiple Time Series. arXiv preprint arXiv:2202.07857
+(2022).
+	
+<a href="#ref23" id="ref23">[23]</a> Nan Ding, Huanbo Gao, Hongyu Bu, Haoxuan Ma, and Huaiwei Si. 2018. Multivariate-time-series-driven real-time anomaly detection based on
+bayesian network. Sensors 18, 10 (2018), 3367.
+	
+<a href="#ref24" id="ref24">[24]</a> Huan Song, Deepta Rajan, Jayaraman Thiagarajan, and Andreas Spanias. 2018. Attend and diagnose: Clinical time series analysis using attention
+models. In Proceedings of the AAAI conference on artificial intelligence, Vol. 32.
+	
+<a href="#ref25" id="ref25">[25]</a> Mayu Sakurada and Takehisa Yairi. 2014. Anomaly detection using autoencoders with nonlinear dimensionality reduction. In Workshop on Machine
+Learning for Sensory Data Analysis. 4–11.
+	
+<a href="#ref26" id="ref26">[26]</a> Bo Zong, Qi Song, Martin Renqiang Min, Wei Cheng, Cristian Lumezanu, Daeki Cho, and Haifeng Chen. 2018. Deep autoencoding gaussian
+mixture model for unsupervised anomaly detection. In International conference on learning representations.
+	
+<a href="#ref27" id="ref27">[27]</a> Chuxu Zhang, Dongjin Song, Yuncong Chen, Xinyang Feng, Cristian Lumezanu, Wei Cheng, Jingchao Ni, Bo Zong, Haifeng Chen, and Nitesh V
+Chawla. 2019. A deep neural network for unsupervised anomaly detection and diagnosis in multivariate time series data. In Proceedings of the
+AAAI conference on artificial intelligence, Vol. 33. 1409–1416.
+	
+<a href="#ref28" id="ref28">[28]</a> Julien Audibert, Pietro Michiardi, Frédéric Guyard, Sébastien Marti, and Maria A Zuluaga. 2020. Usad: Unsupervised anomaly detection on
+multivariate time series. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 3395–3404.
+	
+<a href="#ref29" id="ref29">[29]</a> Adam Goodge, Bryan Hooi, See-Kiong Ng, and Wee Siong Ng. 2020. Robustness of Autoencoders for Anomaly Detection Under Adversarial
+Impact.. In IJCAI. 1244–1250.
+	
+<a href="#ref30" id="ref30">[30]</a> Ahmed Abdulaal, Zhuanghua Liu, and Tomer Lancewicki. 2021. Practical approach to asynchronous multivariate time series anomaly detection
+and localization. In ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2485–2494.
+	
+<a href="#ref31" id="ref31">[31]</a> David Campos, Tung Kieu, Chenjuan Guo, Feiteng Huang, Kai Zheng, Bin Yang, and Christian S Jensen. 2021. Unsupervised Time Series Outlier
+Detection with Diversity-Driven Convolutional Ensembles–Extended Version. arXiv preprint arXiv:2111.11108 (2021).
+	
+<a href="#ref32" id="ref32">[32]</a> Yuxin Zhang, Jindong Wang, Yiqiang Chen, Han Yu, and Tao Qin. 2022. Adaptive memory networks with self-supervised learning for unsupervised
+anomaly detection. IEEE Transactions on Knowledge and Data Engineering (2022).
+	
+<a href="#ref33" id="ref33">[33]</a> Daehyung Park, Yuuna Hoshi, and Charles C Kemp. 2018. A multimodal anomaly detector for robot-assisted feeding using an lstm-based variational
+autoencoder. IEEE Robotics and Automation Letters 3, 3 (2018), 1544–1551.
+	
+<a href="#ref34" id="ref34">[34]</a> Ya Su, Youjian Zhao, Chenhao Niu, Rong Liu, Wei Sun, and Dan Pei. 2019. Robust anomaly detection for multivariate time series through stochastic recurrent neural network. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining. 2828–2837.
+	
+<a href="#ref35" id="ref35">[35]</a> Maximilian Sölch, Justin Bayer, Marvin Ludersdorfer, and Patrick van der Smagt. 2016. Variational inference for on-line anomaly detection in
+high-dimensional time series. arXiv preprint arXiv:1602.07109 (2016).
+	
+<a href="#ref36" id="ref36">[36]</a> Yifan Guo, Weixian Liao, Qianlong Wang, Lixing Yu, Tianxi Ji, and Pan Li. 2018. Multidimensional time series anomaly detection: A gru-based
+gaussian mixture variational autoencoder approach. In Asian Conference on Machine Learning. PMLR, 97–112.
+	
+<a href="#ref37" id="ref37">[37]</a> Longyuan Li, Junchi Yan, Haiyang Wang, and Yaohui Jin. 2020. Anomaly detection of time series with smoothness-inducing sequential variational
+auto-encoder. IEEE transactions on neural networks and learning systems 32, 3 (2020), 1177–1191.
+	
+<a href="#ref38" id="ref38">[38]</a> Zijian Niu, Ke Yu, and Xiaofei Wu. 2020. LSTM-based VAE-GAN for time-series anomaly detection. Sensors 20, 13 (2020), 3738.
+	
+<a href="#ref39" id="ref39">[39]</a> Chunkai Zhang, Shaocong Li, Hongye Zhang, and Yingyang Chen. 2019. VELC: A new variational autoencoder based model for time series
+anomaly detection. arXiv preprint arXiv:1907.01702 (2019).
+	
+<a href="#ref40" id="ref40">[40]</a> Zilong He, Pengfei Chen, Xiaoyun Li, Yongfeng Wang, Guangba Yu, Cailin Chen, Xinrui Li, and Zibin Zheng. 2020. A spatiotemporal deep learning
+approach for unsupervised anomaly detection in cloud systems. IEEE Transactions on Neural Networks and Learning Systems (2020).
+	
+<a href="#ref41" id="ref41">[41]</a> Run-Qing Chen, Guang-Hui Shi, Wan-Lei Zhao, and Chang-Hui Liang. 2021. A joint model for IT operation series prediction and anomaly
+detection. Neurocomputing 448 (2021), 130–139.
+	
+<a href="#ref42" id="ref42">[42]</a> Zhihan Li, Youjian Zhao, Jiaqi Han, Ya Su, Rui Jiao, Xidao Wen, and Dan Pei. 2021. Multivariate time series anomaly detection and interpretation using hierarchical inter-metric and temporal embedding. In ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 3220–3230.
+	
+<a href="#ref43" id="ref43">[43]</a> Xixuan Wang, Dechang Pi, Xiangyan Zhang, Hao Liu, and Chang Guo. 2022. Variational transformer-based anomaly detection approach for
+multivariate time series. Measurement 191 (2022), 110791.
 
-
-
+<a href="#ref44" id="ref44">[44]</a> Longyuan Li, Junchi Yan, Qingsong Wen, Yaohui Jin, and Xiaokang Yang. 2022. Learning Robust Deep State Space for Unsupervised Anomaly
+Detection in Contaminated Time-Series. IEEE Transactions on Knowledge and Data Engineering (2022).
+	
+<a href="#ref45" id="ref45">[45]</a> Dan Li, Dacheng Chen, Baihong Jin, Lei Shi, Jonathan Goh, and See-Kiong Ng. 2019. MAD-GAN: Multivariate anomaly detection for time series
+data with generative adversarial networks. In International conference on artificial neural networks. Springer, 703–716.
+	
+<a href="#ref46" id="ref46">[46]</a> Bin Zhou, Shenghua Liu, Bryan Hooi, Xueqi Cheng, and Jing Ye. 2019. BeatGAN: Anomalous Rhythm Detection using Adversarially Generated
+Time Series. In IJCAI. 4433–4439.
+	
+<a href="#ref47" id="ref47">[47]</a> Xuanhao Chen, Liwei Deng, Feiteng Huang, Chengwei Zhang, Zongquan Zhang, Yan Zhao, and Kai Zheng. 2021. Daemon: Unsupervised anomaly
+detection and interpretation for multivariate time series. In 2021 IEEE 37th International Conference on Data Engineering (ICDE). IEEE, 2225–2230.
+	
+<a href="#ref48" id="ref48">[48]</a> Bowen Du, Xuanxuan Sun, Junchen Ye, Ke Cheng, Jingyuan Wang, and Leilei Sun. 2021. GAN-Based Anomaly Detection for Multivariate Time
+Series Using Polluted Training Set. IEEE Transactions on Knowledge and Data Engineering (2021).
+	
+<a href="#ref49" id="ref49">[49]</a> Yifan Li, Xiaoyan Peng, Jia Zhang, Zhiyong Li, and Ming Wen. 2021. DCT-GAN: Dilated Convolutional Transformer-based GAN for Time Series
+Anomaly Detection. IEEE Transactions on Knowledge and Data Engineering (2021).
+	
+<a href="#ref50" id="ref50">[50]</a> Jiehui Xu, Haixu Wu, Jianmin Wang, and Mingsheng Long. 2021. Anomaly transformer: Time series anomaly detection with association discrepancy.
+arXiv preprint arXiv:2110.02642 (2021).
+	
+<a href="#ref51" id="ref51">[51]</a> Shreshth Tuli, Giuliano Casale, and Nicholas R Jennings. 2022. TranAD: Deep transformer networks for anomaly detection in multivariate time
+series data. arXiv preprint arXiv:2201.07284 (2022).
+	
+<a href="#ref52" id="ref52">[52]</a> Yuxin Zhang, Yiqiang Chen, Jindong Wang, and Zhiwen Pan. 2021. Unsupervised deep anomaly detection for multi-sensor time-series signals.
+IEEE Transactions on Knowledge and Data Engineering (2021).
+	
+<a href="#ref53" id="ref53">[53]</a> Cheng Feng and Pengwei Tian. 2021. Time series anomaly detection for cyber-physical systems via neural system identification and bayesian
+filtering. In ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2858–2867.
+	
+<a href="#ref54" id="ref54">[54]</a> Md Abul Bashar and Richi Nayak. 2020. TAnoGAN: Time series anomaly detection with generative adversarial networks. In 2020 IEEE Symposium
+Series on Computational Intelligence (SSCI). IEEE, 1778–1785.
+	
+<a href="#ref55" id="ref55">[55]</a> Hang Zhao, Yujing Wang, Juanyong Duan, Congrui Huang, Defu Cao, Yunhai Tong, Bixiong Xu, Jing Bai, Jie Tong, and Qi Zhang. 2020. Multivariate
+time-series anomaly detection via graph attention network. In 2020 IEEE International Conference on Data Mining (ICDM). IEEE, 841–850.
+	
+<a href="#ref56" id="ref56">[56]</a> Siho Han and Simon S Woo. 2022. Learning Sparse Latent Graph Representations for Anomaly Detection in Multivariate Time Series. In Proceedings
+of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2977–2986.
 
 
 
