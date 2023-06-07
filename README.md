@@ -72,28 +72,69 @@ If you use this repository in your works, please cite the main article:
 |[Power Demand Dataset](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)|Real      |UTS    |35,040          |1         |1    |Industrial control systems                |
 |[SensoreScope](https://doi.org/10.5281/zenodo.2654726)|Real      |UTS    |621,874         |23        |1    |Internet of things (IoT)                  |
 |[Space Shuttle Dataset](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)|Real      |UTS    |15,000          |15        |1    |Aerospace                                 |
-|[Yahoo](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70&guccounter=1)|Real/Synth|UTS    |572,966         |367       |1    |Multiple domains                          |
-
-
-
+|[Yahoo](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70&guccounter=1)|Real/Synth|UTS    |572,966         |367       |1    |Multiple domains                          |. 
+  
+    
+ 
 ## Univariate Deep Anomaly Detection Models in Time Series
+
 | A[^1] | MA[^2] | Model | Su/Un[^3] | Input | P/S[^4] | Code |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Forecasting** | RNN | LSTM-AD [^1^] | Un | P | Point |
-| **Forecasting** | RNN | LSTM RNN [^2^] | Semi | P | Subseq |
-| **Forecasting** | RNN | LSTM-based [^3^] | Un | W | - |
-| **Forecasting** | RNN | TCQSA [^4^] | Su | P | - |
-| **Forecasting** | HTM | Numenta HTM [^5^] | Un | - | - |
-| **Forecasting** | HTM | Multi HTM [^6^] | Un | - | - |
-| **Forecasting** | CNN | SR-CNN [^7^] | Un | W | Point + Subseq |
-| **Reconstruction** | VAE | Donut [^8^] | Un | W | Subseq |
-| **Reconstruction** | VAE | Buzz [^9^] | Un | W | Subseq |
-| **Reconstruction** | VAE | Bagel [^10^] | Un | W | Subseq |
-| **Reconstruction** | AE | EncDec-AD [^11^] | Semi | W | Point |
+| **Forecasting** | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Un | P | Point |
+| **Forecasting** | RNN | LSTM RNN <a href="#ref2" id="ref2">[2]</a> | Semi | P | Subseq |
+| **Forecasting** | RNN | LSTM-based <a href="#ref3" id="ref3">[3]</a> | Un | W | - |
+| **Forecasting** | RNN | TCQSA <a href="#ref4" id="ref4">[4]</a> | Su | P | - |
+| **Forecasting** | HTM | Numenta HTM <a href="#ref5" id="ref5">[5]</a> | Un | - | - |
+| **Forecasting** | HTM | Multi HTM <a href="#ref6" id="ref6">[6]</a> | Un | - | - |
+| **Forecasting** | CNN | SR-CNN <a href="#ref7" id="ref7">[7]</a> | Un | W | Point + Subseq |
+| **Reconstruction** | VAE | Donut <a href="#ref8" id="ref8">[8]</a> | Un | W | Subseq |
+| **Reconstruction** | VAE | Buzz <a href="#ref9" id="ref9">[9]</a> | Un | W | Subseq |
+| **Reconstruction** | VAE | Bagel <a href="#ref10" id="ref10">[10]</a> | Un | W | Subseq |
+| **Reconstruction** | AE | EncDec-AD <a href="#ref11" id="ref11">[11]</a> | Semi | W | Point |
   
 [^1]: A: Approach
 [^2]: MA: Main Approach
 [^3]: Su/Un: Supervised/Unsupervised | Values: [Su: Supervised, Un: Unsupervised, Semi: Semi-supervised, Self: Self-supervised]
-[^4]: P/S: Point/Sub-sequence
+[^4]: P/S: Point/Sub-sequence. 
+
+
+## References
+<a id="ref1" href="#ref1">[1]</a> Pankaj Malhotra, Lovekesh Vig, Gautam Shroff, Puneet Agarwal, et al . 2015. Long short term memory networks for anomaly detection in time
+series. In Proceedings of ESANN, Vol. 89. 89–94.  
+
+<a id="ref2" href="#ref2">[2]</a> Loïc Bontemps, Van Loi Cao, James McDermott, and Nhien-An Le-Khac. 2016. Collective anomaly detection based on long short-term memory
+recurrent neural networks. In International conference on future data and security engineering. Springer, 141–152.  
+
+<a href="#ref3" id="ref3">[3]</a> Tolga Ergen and Suleyman Serdar Kozat. 2019. Unsupervised anomaly detection with LSTM neural networks. IEEE Transactions on Neural Networks
+and Learning Systems 31, 8 (2019), 3127–3141.  
+
+<a href="#ref4" id="ref4">[4]</a> Fan Liu, Xingshe Zhou, Jinli Cao, Zhu Wang, Tianben Wang, Hua Wang, and Yanchun Zhang. 2020. Anomaly detection in quasi-periodic time
+series based on automatic data segmentation and attentional LSTM-CNN. IEEE Transactions on Knowledge and Data Engineering (2020).  
+
+<a href="#ref5" id="ref5">[5]</a> Subutai Ahmad, Alexander Lavin, Scott Purdy, and Zuha Agha. 2017. Unsupervised real-time anomaly detection for streaming data. Neurocomputing
+262 (2017), 134–147.  
+
+<a href="#ref6" id="ref6">[6]</a> Jia Wu, Weiru Zeng, and Fei Yan. 2018. Hierarchical temporal memory method for time-series-based anomaly detection. Neurocomputing 273
+(2018), 535–546.  
+
+<a href="#ref7" id="ref7">[7]</a> Hansheng Ren, Bixiong Xu, Yujing Wang, Chao Yi, Congrui Huang, Xiaoyu Kou, Tony Xing, Mao Yang, Jie Tong, and Qi Zhang. 2019. Time-series
+anomaly detection service at microsoft. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining. 3009–3017.  
+
+<a href="#ref8" id="ref8">[8]</a> Haowen Xu, Wenxiao Chen, Nengwen Zhao, Zeyan Li, Jiahao Bu, Zhihan Li, Ying Liu, Youjian Zhao, Dan Pei, Yang Feng, et al. 2018. Unsupervised
+anomaly detection via variational auto-encoder for seasonal kpis in web applications. In World Wide Web Conference. 187–196.  
+
+<a href="#ref9" id="ref9">[9]</a> Wenxiao Chen, Haowen Xu, Zeyan Li, Dan Pei, Jie Chen, Honglin Qiao, Yang Feng, and Zhaogang Wang. 2019. Unsupervised anomaly detection
+for intricate kpis via adversarial training of vae. In IEEE INFOCOM 2019-IEEE Conference on Computer Communications. IEEE, 1891–1899.  
+
+<a href="#ref10" id="ref10">[10]</a> Zeyan Li, Wenxiao Chen, and Dan Pei. 2018. Robust and unsupervised kpi anomaly detection based on conditional variational autoencoder. In
+International Performance Computing and Communications Conference (IPCCC). IEEE, 1–9.  
+
+<a href="#ref11" id="ref11">[11]</a> Pankaj Malhotra, Anusha Ramakrishnan, Gaurangi Anand, Lovekesh Vig, Puneet Agarwal, and Gautam Shroff. 2016. LSTM-based encoder-decoder
+for multi-sensor anomaly detection. arXiv preprint arXiv:1607.00148 (2016).
+
+
+
+
+
 
 
