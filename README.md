@@ -80,7 +80,7 @@ If you use this repository in your works, please cite the main article:
 
 | A<sup>[1](#Approach)</sup> | MA<sup>[2](#Main)</sup> | Model | Su/Un<sup>[3](#Su)</sup> | Input | P/S<sup>[4](#point)</sup> | Code |
 | --- | --- | --- | --- | --- | --- | --- |
-| Forecasting | RNN | LSTM-AD [1](#ref1) | Un | P | Point |
+| Forecasting | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Un | P | Point |
 | Forecasting | RNN | LSTM RNN <a href="#ref2" id="ref2">[2]</a> | Semi | P | Subseq |
 | Forecasting | RNN | LSTM-based <a href="#ref3" id="ref3">[3]</a> | Un | W | - |
 | Forecasting | RNN | TCQSA <a href="#ref4" id="ref4">[4]</a> | Su | P | - |
@@ -162,7 +162,7 @@ If you use this repository in your works, please cite the main article:
 	
 	
 ## References
-<a name="#ref1"></a> Pankaj Malhotra, Lovekesh Vig, Gautam Shroff, Puneet Agarwal, et al . 2015. Long short term memory networks for anomaly detection in time
+<a id="ref1">[1]</a> Pankaj Malhotra, Lovekesh Vig, Gautam Shroff, Puneet Agarwal, et al . 2015. Long short term memory networks for anomaly detection in time
 series. In Proceedings of ESANN, Vol. 89. 89–94.  
 
 <a id="ref2" href="#ref2">[2]</a> Loïc Bontemps, Van Loi Cao, James McDermott, and Nhien-An Le-Khac. 2016. Collective anomaly detection based on long short-term memory
