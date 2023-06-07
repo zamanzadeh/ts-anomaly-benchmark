@@ -80,17 +80,17 @@ If you use this repository in your works, please cite the main article:
 
 | A<sup>[1](#Approach)</sup> | MA<sup>[2](#Main)</sup> | Model | Su/Un<sup>[3](#Su)</sup> | Input | P/S<sup>[4](#point)</sup> | Code |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Forecasting** | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Un | P | Point |
-| **Forecasting** | RNN | LSTM RNN <a href="#ref2" id="ref2">[2]</a> | Semi | P | Subseq |
-| **Forecasting** | RNN | LSTM-based <a href="#ref3" id="ref3">[3]</a> | Un | W | - |
-| **Forecasting** | RNN | TCQSA <a href="#ref4" id="ref4">[4]</a> | Su | P | - |
-| **Forecasting** | HTM | Numenta HTM <a href="#ref5" id="ref5">[5]</a> | Un | - | - |
-| **Forecasting** | HTM | Multi HTM <a href="#ref6" id="ref6">[6]</a> | Un | - | - |
-| **Forecasting** | CNN | SR-CNN <a href="#ref7" id="ref7">[7]</a> | Un | W | Point + Subseq |
-| **Reconstruction** | VAE | Donut <a href="#ref8" id="ref8">[8]</a> | Un | W | Subseq |
-| **Reconstruction** | VAE | Buzz <a href="#ref9" id="ref9">[9]</a> | Un | W | Subseq |
-| **Reconstruction** | VAE | Bagel <a href="#ref10" id="ref10">[10]</a> | Un | W | Subseq |
-| **Reconstruction** | AE | EncDec-AD <a href="#ref11" id="ref11">[11]</a> | Semi | W | Point |
+| Forecasting | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Un | P | Point |
+| Forecasting | RNN | LSTM RNN <a href="#ref2" id="ref2">[2]</a> | Semi | P | Subseq |
+| Forecasting | RNN | LSTM-based <a href="#ref3" id="ref3">[3]</a> | Un | W | - |
+| Forecasting | RNN | TCQSA <a href="#ref4" id="ref4">[4]</a> | Su | P | - |
+| Forecasting | HTM | Numenta HTM <a href="#ref5" id="ref5">[5]</a> | Un | - | - |
+| Forecasting | HTM | Multi HTM <a href="#ref6" id="ref6">[6]</a> | Un | - | - |
+| Forecasting | CNN | SR-CNN <a href="#ref7" id="ref7">[7]</a> | Un | W | Point + Subseq |
+| Reconstruction | VAE | Donut <a href="#ref8" id="ref8">[8]</a> | Un | W | Subseq |
+| Reconstruction | VAE | Buzz <a href="#ref9" id="ref9">[9]</a> | Un | W | Subseq |
+| Reconstruction | VAE | Bagel <a href="#ref10" id="ref10">[10]</a> | Un | W | Subseq |
+| Reconstruction | AE | EncDec-AD <a href="#ref11" id="ref11">[11]</a> | Semi | W | Point |
   
 
 ## Multivariate Deep Anomaly Detection Models in Time Series
