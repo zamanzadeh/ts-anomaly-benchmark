@@ -9,7 +9,7 @@ If you use this repository in your works, please cite the main article:
 [-] Zamanzadeh Darban, Z., Webb, G. I., Pan, S., Aggarwal, C. C., & Salehi, M. (2022). Deep Learning for Time Series Anomaly Detection: A Survey. arXiv e-prints. doi:10.48550/ARXIV.2211.05244 [[arXiv](https://arxiv.org/abs/2211.05244)]
 
 	@ARTICLE{2022arXiv221105244Z,
-		author = {{Zamanzadeh Darban}, Zahra and {Webb}, Geoffrey I. and {Pan}, Shirui and {Aggarwal}, Charu C. and {Salehi}, Mahsa},
+		author = {Zamanzadeh Darban, Zahra and Webb, Geoffrey I. and Pan, Shirui and Aggarwal, Charu C. and Salehi, Mahsa},
 		title = {Deep Learning for Time Series Anomaly Detection: A Survey},
 		journal = {arXiv e-prints},
 		year = 2022,
