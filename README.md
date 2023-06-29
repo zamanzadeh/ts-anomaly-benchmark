@@ -20,6 +20,11 @@ If you use this repository in your works, please cite the main article:
 		doi = {10.48550/ARXIV.2211.05244},
 	}
 
+## Review Papers
+1. [Towards a Rigorous Evaluation of Time-Series Anomaly Detection](https://ojs.aaai.org/index.php/AAAI/article/view/20680), AAAI 2022.
+2. [Anomaly detection in time series: a comprehensive evaluation](https://dl.acm.org/doi/abs/10.14778/3538598.3538602), VLDB 2022. 
+
+
 ## Datasets/Benchmarks for time series anomaly detection
 
 |Dataset/Benchmark          |Real/Synth|MTS/UTS|# Samples       |# Entities|# Dim|Domain                                    |
