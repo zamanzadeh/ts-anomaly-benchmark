@@ -21,8 +21,10 @@ If you use this repository in your works, please cite the main article:
 	}
 
 ## Related Review Papers
-1. [Towards a Rigorous Evaluation of Time-Series Anomaly Detection](https://ojs.aaai.org/index.php/AAAI/article/view/20680), AAAI 2022.
-2. [Anomaly detection in time series: a comprehensive evaluation](https://dl.acm.org/doi/abs/10.14778/3538598.3538602), VLDB 2022. 
+1. [Revisiting Time Series Outlier Detection: Definitions and Benchmarks](https://openreview.net/forum?id=r8IvOsnHchr), NeurIPS 2021.
+2. [Current Time Series Anomaly Detection Benchmarks are Flawed and are Creating the Illusion of Progress](https://ieeexplore.ieee.org/abstract/document/9537291), TKDE, 2021.
+3. [Towards a Rigorous Evaluation of Time-Series Anomaly Detection](https://ojs.aaai.org/index.php/AAAI/article/view/20680), AAAI 2022.
+4. [Anomaly detection in time series: a comprehensive evaluation](https://dl.acm.org/doi/abs/10.14778/3538598.3538602), VLDB 2022. 
 
 
 ## Datasets/Benchmarks for time series anomaly detection
