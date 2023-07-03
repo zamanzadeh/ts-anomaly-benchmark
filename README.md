@@ -87,17 +87,17 @@ If you use this repository in your works, please cite the main article:
 
 | A<sup>[1](#Approach)</sup> | MA<sup>[2](#Main)</sup> | Model | Su/Un<sup>[3](#Su)</sup> | Input | P/S<sup>[4](#point)</sup> | Code |
 | --- | --- | --- | --- | --- | --- | --- |
-| Forecasting | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Un | P | Point |
+| Forecasting | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Un | P | Point | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/lstm_ad) |
 | Forecasting | RNN | LSTM RNN <a href="#ref2" id="ref2">[2]</a> | Semi | P | Subseq |
 | Forecasting | RNN | LSTM-based <a href="#ref3" id="ref3">[3]</a> | Un | W | - |
 | Forecasting | RNN | TCQSA <a href="#ref4" id="ref4">[4]</a> | Su | P | - |
 | Forecasting | HTM | Numenta HTM <a href="#ref5" id="ref5">[5]</a> | Un | - | - |
-| Forecasting | HTM | Multi HTM <a href="#ref6" id="ref6">[6]</a> | Un | - | - |
-| Forecasting | CNN | SR-CNN <a href="#ref7" id="ref7">[7]</a> | Un | W | Point + Subseq |
-| Reconstruction | VAE | Donut <a href="#ref8" id="ref8">[8]</a> | Un | W | Subseq |
+| Forecasting | HTM | Multi HTM <a href="#ref6" id="ref6">[6]</a> | Un | - | - | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/multi_hmm) |
+| Forecasting | CNN | SR-CNN <a href="#ref7" id="ref7">[7]</a> | Un | W | Point + Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/sr_cnn) |
+| Reconstruction | VAE | Donut <a href="#ref8" id="ref8">[8]</a> | Un | W | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/donut) |
 | Reconstruction | VAE | Buzz <a href="#ref9" id="ref9">[9]</a> | Un | W | Subseq |
-| Reconstruction | VAE | Bagel <a href="#ref10" id="ref10">[10]</a> | Un | W | Subseq |
-| Reconstruction | AE | EncDec-AD <a href="#ref11" id="ref11">[11]</a> | Semi | W | Point |
+| Reconstruction | VAE | Bagel <a href="#ref10" id="ref10">[10]</a> | Un | W | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/bagel) |
+| Reconstruction | AE | EncDec-AD <a href="#ref11" id="ref11">[11]</a> | Semi | W | Point | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/encdec_ad) |
   
 
 ## Multivariate Deep Anomaly Detection Models in Time Series
@@ -110,24 +110,24 @@ If you use this repository in your works, please cite the main article:
 | Forecasting | RNN | LGMAD <a href="#ref15" id="ref15">[15]</a> | T | Semi | P | | Point | | 
 | Forecasting | RNN | THOC <a href="#ref16" id="ref16">[16]</a> | T | Self | W | | Subseq | |
 | Forecasting | RNN | AD-LTI <a href="#ref17" id="ref17">[17]</a> | T | Un | P | | Point (frame) | |
-| Forecasting | CNN | DeepAnt <a href="#ref18" id="ref18">[18]</a> | T | Un | W | | Point + Subseq | |
+| Forecasting | CNN | DeepAnt <a href="#ref18" id="ref18">[18]</a> | T | Un | W | | Point + Subseq | [Github ](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/deepant) |
 | Forecasting | CNN | TCN-ms <a href="#ref19" id="ref19">[19]</a> | T | Semi | W | | Subseq | |
 | Forecasting | GNN | GDN <a href="#ref20" id="ref20">[20]</a> | S | Un | W | &#10003; | - | |
 | Forecasting | GNN | GTA* <a href="#ref21" id="ref21">[21]</a> | ST | Semi | - | | - | |
 | Forecasting | GNN | GANF <a href="#ref22" id="ref22">[22]</a> | ST | Un | W | | | |
 | Forecasting | HTM | RADM <a href="#ref23" id="ref23">[23]</a> | T | Un | W | | - | |
-| Forecasting | Transformer | SAND <a href="#ref24" id="ref24">[24]</a> | T | Semi | W | | - | |
+| Forecasting | Transformer | SAND <a href="#ref24" id="ref24">[24]</a> | T | Semi | W | | - | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/sand) |
 | Forecasting | Transformer | GTA* <a href="#ref21" id="ref21">[21]</a> | ST | Semi | - | | - | |
-| Reconstruction | AE | AE/DAE <a href="#ref25" id="ref25">[25]</a> | T | Semi | P | | Point | |
+| Reconstruction | AE | AE/DAE <a href="#ref25" id="ref25">[25]</a> | T | Semi | P | | Point | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/dae) |
 | Reconstruction | AE | DAGMM <a href="#ref26" id="ref26">[26]</a> | S | Un | P | | Point | |
-| Reconstruction | AE | MSCRED <a href="#ref27" id="ref27">[27]</a> | ST | Un | W | &#10003; | Subseq | |
+| Reconstruction | AE | MSCRED <a href="#ref27" id="ref27">[27]</a> | ST | Un | W | &#10003; | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/mscred) |
 | Reconstruction | AE | USAD <a href="#ref28" id="ref28">[28]</a> | T | Un | W | | Point | |
 | Reconstruction | AE | APAE <a href="#ref29" id="ref29">[29]</a> | T | Un | W | | - | |
 | Reconstruction | AE | RANSynCoders <a href="#ref30" id="ref30">[30]</a> | ST | Un | P | &#10003; | Point | |
 | Reconstruction | AE | CAE-Ensemble <a href="#ref31" id="ref31">[31]</a> | T | Un | W | | Subseq | |
 | Reconstruction | AE | AMSL <a href="#ref32" id="ref32">[32]</a> | T | Self | W | | - | |
-| Reconstruction | VAE | LSTM-VAE <a href="#ref33" id="ref33">[33]</a> | T | Semi | P | | - | |
-| Reconstruction | VAE | OmniAnomaly <a href="#ref34" id="ref34">[34]</a> | T | Un | W | &#10003; | Point + Subseq | |
+| Reconstruction | VAE | LSTM-VAE <a href="#ref33" id="ref33">[33]</a> | T | Semi | P | | - | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/lstm_vae) |
+| Reconstruction | VAE | OmniAnomaly <a href="#ref34" id="ref34">[34]</a> | T | Un | W | &#10003; | Point + Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEvalalgorithms/blob/main/omnianomaly) |
 | Reconstruction | VAE | STORN <a href="#ref35" id="ref35">[35]</a> | ST | Un | P | | Point | |
 | Reconstruction | VAE | GGM-VAE <a href="#ref36" id="ref36">[36]</a> | T | Un | W | | Subseq | |
 | Reconstruction | VAE | SISVAE <a href="#ref37" id="ref37">[37]</a> | T | Un | W | | Point | |
@@ -150,8 +150,8 @@ If you use this repository in your works, please cite the main article:
 | Hybrid | AE | CAE-M <a href="#ref52" id="ref52">[52]</a> | ST | Un | W | | Subseq | |
 | Hybrid | AE | NSIBF* <a href="#ref53" id="ref53">[53]</a> | T | Un | W | | Subseq | |
 | Hybrid | RNN | NSIBF* <a href="#ref53" id="ref53">[53]</a> | T | Un | W | | Subseq | |
-| Hybrid | RNN | TAnoGAN <a href="#ref54" id="ref54">[54]</a> | T | Un | W | | Subseq | |
-| Hybrid | GNN | MTAD-GAT <a href="#ref55" id="ref55">[55]</a> | ST | Self | W | &#10003; | Subseq | |
+| Hybrid | RNN | TAnoGAN <a href="#ref54" id="ref54">[54]</a> | T | Un | W | | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/tanogan) |
+| Hybrid | GNN | MTAD-GAT <a href="#ref55" id="ref55">[55]</a> | ST | Self | W | &#10003; | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/mtad_gat) |
 | Hybrid | GNN | FuSAGNet <a href="#ref56" id="ref56">[56]</a> | ST | Semi | W | | Subseq | |
 
 ---
