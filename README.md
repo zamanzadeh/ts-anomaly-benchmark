@@ -87,16 +87,17 @@ If you use this repository in your works, please cite the main article:
 
 | A<sup>[1](#Approach)</sup> | MA<sup>[2](#Main)</sup> | Model | Su/Un<sup>[3](#Su)</sup> | Input | P/S<sup>[4](#point)</sup> | Code |
 | --- | --- | --- | --- | --- | --- | --- |
-| Forecasting | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Un | P | Point | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/lstm_ad) |
-| Forecasting | RNN | LSTM RNN <a href="#ref2" id="ref2">[2]</a> | Semi | P | Subseq |
-| Forecasting | RNN | LSTM-based <a href="#ref3" id="ref3">[3]</a> | Un | W | - |
-| Forecasting | RNN | TCQSA <a href="#ref4" id="ref4">[4]</a> | Su | P | - |
-| Forecasting | HTM | Numenta HTM <a href="#ref5" id="ref5">[5]</a> | Un | - | - |
-| Forecasting | HTM | Multi HTM <a href="#ref6" id="ref6">[6]</a> | Un | - | - | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/multi_hmm) |
-| Forecasting | CNN | SR-CNN <a href="#ref7" id="ref7">[7]</a> | Un | W | Point + Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/sr_cnn) |
-| Reconstruction | VAE | Donut <a href="#ref8" id="ref8">[8]</a> | Un | W | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/donut) |
-| Reconstruction | VAE | Buzz <a href="#ref9" id="ref9">[9]</a> | Un | W | Subseq |
-| Reconstruction | VAE | Bagel <a href="#ref10" id="ref10">[10]</a> | Un | W | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/bagel) |
+| Forecasting | RNN | LSTM-AD <a href="#ref1" id="ref1">[1]</a> | Year |  Un | P | Point | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/lstm_ad) |
+| Forecasting | RNN | DeepLSTM <a href="#ref13" id="ref13">[13]</a> | 2015 | Semi | P | | Point | |
+| Forecasting | RNN | LSTM RNN <a href="#ref2" id="ref2">[2]</a> | 2015 | Semi | P | Subseq |
+| Forecasting | RNN | LSTM-based <a href="#ref3" id="ref3">[3]</a> | 2019 | Un | W | - |
+| Forecasting | RNN | TCQSA <a href="#ref4" id="ref4">[4]</a> | 2020 | Su | P | - |
+| Forecasting | HTM | Numenta HTM <a href="#ref5" id="ref5">[5]</a> | 2017 | Un | - | - |
+| Forecasting | HTM | Multi HTM <a href="#ref6" id="ref6">[6]</a> | 2018 | Un | - | - | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/multi_hmm) |
+| Forecasting | CNN | SR-CNN <a href="#ref7" id="ref7">[7]</a> | 2019 | Un | W | Point + Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/sr_cnn) |
+| Reconstruction | VAE | Donut <a href="#ref8" id="ref8">[8]</a> | 2018 | Un | W | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/donut) |
+| Reconstruction | VAE | Bagel <a href="#ref10" id="ref10">[10]</a> | 2018 | Un | W | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/bagel) |
+| Reconstruction | VAE | Buzz <a href="#ref9" id="ref9">[9]</a> | 2019 | Un | W | Subseq |
 | Reconstruction | AE | EncDec-AD <a href="#ref11" id="ref11">[11]</a> | Semi | W | Point | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/encdec_ad) |
   
 
@@ -105,7 +106,6 @@ If you use this repository in your works, please cite the main article:
 | A<sup>[1](#Approach)</sup>  | MA<sup>[2](#Main)</sup> | Model | T/S<sup>[3](#temp)</sup> | Su/Un<sup>[4](#Su)</sup>  | Input | Int<sup>[5](#int)</sup> | P/S<sup>[6](#point)</sup> | Code |
 |-------|--------|-------|---------|-----------|-------|----------|---------|---------|
 | Forecasting | RNN | LSTM-NDT <a href="#ref12" id="ref12">[12]</a> | T | Un | W | &#10003; | Subseq | |
-| Forecasting | RNN | DeepLSTM <a href="#ref13" id="ref13">[13]</a> | T | Semi | P | | Point | |
 | Forecasting | RNN | LSTM-PRED <a href="#ref14" id="ref14">[14]</a> | T | Un | W | &#10003; | - | |
 | Forecasting | RNN | LGMAD <a href="#ref15" id="ref15">[15]</a> | T | Semi | P | | Point | | 
 | Forecasting | RNN | THOC <a href="#ref16" id="ref16">[16]</a> | T | Self | W | | Subseq | |
