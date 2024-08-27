@@ -175,7 +175,24 @@ If you use this repository in your works, please cite the main article:
 
 <sub><a name="point">6</a>: Point/Sub-sequence </sub>
 	
-	
+
+## Guidelines to Use Evaluation Metrics for Time Series Anomaly Detection
+| **Metrics** | **Value Explanation** | **When to Use** |
+| --- | --- | --- |
+| **Precision** | Low precision indicates many false alarms (normal instances classified as anomalies). High precision indicates most detected anomalies are actual anomalies, implying few false alarms. | Use when it is crucial to minimize false alarms and ensure that detected anomalies are truly significant. |
+| **Recall** | Low recall indicates many true anomalies are missed, leading to undetected critical events. High recall indicates most anomalies are detected, ensuring prompt action on critical events. | Use when it is critical to detect all anomalies, even if it means tolerating some false alarms. |
+| **F1** | Low F1 score indicates poor balance between precision and recall, leading to either many missed anomalies and/or many false alarms. High F1 score indicates a good balance, ensuring reliable anomaly detection with minimal misses and false alarms. | Use when a balance between precision and recall is needed to ensure reliable overall performance. |
+| **F1<sub>PA</sub> Score** | Low F1<sub>PA</sub> indicates difficulty in accurately identifying the exact points of anomalies. High F1<sub>PA</sub> indicates effective handling of slight deviations, ensuring precise anomaly detection. | Use when anomalies may not be precisely aligned, and slight deviations in detection points are acceptable. |
+| **PA%K** | Low PA%K indicates that the model struggles to detect a sufficient portion of the anomalous segment. High PA%K indicates effective detection of segments, ensuring that a significant portion of the segment is identified as anomalous. | Use when evaluating the model's performance in detecting segments of anomalies rather than individual points. |
+| **AU-PR** | Low AU-PR indicates poor model performance, especially with imbalanced datasets. High AU-PR indicates strong performance, maintaining high precision and recall across thresholds. | Use when dealing with imbalanced datasets, where anomalies are rare compared to normal instances. |
+| **AU-ROC** | Low AU-ROC indicates the model struggles to distinguish between normal and anomalous patterns. High AU-ROC indicates effective differentiation, providing reliable anomaly detection. | Use for a general assessment of the model's ability to distinguish between normal and anomalous instances. |
+| **MTTD** | High MTTD indicates significant delays in detecting anomalies. Low MTTD indicates quick detection, allowing prompt responses to critical events. | Use when the speed of anomaly detection is critical, and prompt action is required. |
+| **Affiliation** | High value of the affiliation metric indicates a strong overlap or alignment between the detected anomalies and the true anomalies in a time series. | Use when a comprehensive evaluation is required, or the focus is early detection. |
+| **VUS** | A lower VUS value indicates better performance, as it means the predicted anomaly signal is closer to the true signal. | Use when a holistic and threshold-free evaluation of TSAD methods is required. |
+
+
+
+
 ## References
 <a href="#ref1" id="ref1">[1]</a> Pankaj Malhotra, Lovekesh Vig, Gautam Shroff, Puneet Agarwal, et al . 2015. Long short term memory networks for anomaly detection in time
 series. In Proceedings of ESANN, Vol. 89. 89–94.  
