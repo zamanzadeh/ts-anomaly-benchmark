@@ -20,6 +20,13 @@ If you use this repository in your works, please cite the main article:
 		doi = {10.48550/ARXIV.2211.05244},
 	}
 
+(https://www.sciencedirect.com/science/article/pii/S0031320324006253)*" by 
+- [Zahra Z. Darban](https://scholar.google.com/citations?user=wl6XsiwAAAAJ&hl=en) [Monash University], 
+- [Geoffrey I. Webb](https://scholar.google.com/citations?user=_1tpf8AAAAAJ&hl=en) [Monash University], 
+- [Shirui Pan](https://scholar.google.com/citations?user=frWRJN4AAAAJ&hl=en) [Griffith University], 
+- [Charu C. Aggarwal](https://scholar.google.com/citations?user=x_wsduUAAAAJ&hl=en) [IBM], and 
+- [Mahsa Salehi](https://scholar.google.com/citations?user=tTxJ1owAAAAJ&hl=en) [Monash University]
+
 ## Related Review Papers
 1. [Revisiting Time Series Outlier Detection: Definitions and Benchmarks](https://openreview.net/forum?id=r8IvOsnHchr), NeurIPS 2021.
 2. [Current Time Series Anomaly Detection Benchmarks are Flawed and are Creating the Illusion of Progress](https://ieeexplore.ieee.org/abstract/document/9537291), TKDE, 2021.
