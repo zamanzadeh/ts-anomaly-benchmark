@@ -114,19 +114,19 @@ If you use this repository in your works, please cite the main article:
 | A<sup>[1](#Approach)</sup>  | MA<sup>[2](#Main)</sup> | Model | Year | T/S<sup>[3](#temp)</sup> | Su/Un<sup>[4](#Su)</sup>  | Input | Int<sup>[5](#int)</sup> | P/S<sup>[6](#point)</sup> | Code |
 |-------|--------|-------|---------|-----------|-------|----------|---------|---------|---------|
 | Forecasting | RNN | LSTM-PRED <a href="#ref14" id="ref14">[14]</a> | 2017 | T | Un | W | &#10003; | - | |
-| Forecasting | RNN | LSTM-NDT <a href="#ref12" id="ref12">[12]</a> | 2018 | T | Un | W | &#10003; | Subseq | |
+| Forecasting | RNN | LSTM-NDT <a href="#ref12" id="ref12">[12]</a> | 2018 | T | Un | W | &#10003; | Subseq | [Github](https://github.com/andrejw27/Multivariate-Time-series-Anomaly-Detection-with-Multi-task-Learning) |
 | Forecasting | RNN | LGMAD <a href="#ref15" id="ref15">[15]</a> | 2019 | T | Semi | P | | Point | | 
 | Forecasting | RNN | THOC <a href="#ref16" id="ref16">[16]</a> | 2020 | T | Self | W | | Subseq | |
 | Forecasting | RNN | AD-LTI <a href="#ref17" id="ref17">[17]</a> | 2020 | T | Un | P | | Point (frame) | |
-| Forecasting | CNN | DeepAnt <a href="#ref18" id="ref18">[18]</a> | 2018 | T | Un | W | | Point + Subseq | [Github ](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/deepant) |
+| Forecasting | CNN | DeepAnt <a href="#ref18" id="ref18">[18]</a> | 2018 | T | Un | W | | Point + Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/deepant) |
 | Forecasting | CNN | TCN-ms <a href="#ref19" id="ref19">[19]</a> | 2019 | T | Un | W | | - | |
-| Forecasting | CNN | TimesNet <a href="#ref57" id="ref57">[57]</a> | 2023 | T | Semi | W | | Subseq | [Github ](https://github.com/thuml/TimesNet) |
-| Forecasting | GNN | GDN <a href="#ref20" id="ref20">[20]</a> | 2021 | S | Un | W | &#10003; | - | |
-| Forecasting | GNN | GTA* <a href="#ref21" id="ref21">[21]</a> | 2021 | ST | Semi | - | | - | |
+| Forecasting | CNN | TimesNet <a href="#ref57" id="ref57">[57]</a> | 2023 | T | Semi | W | | Subseq | [Github](https://github.com/thuml/TimesNet) |
+| Forecasting | GNN | GDN <a href="#ref20" id="ref20">[20]</a> | 2021 | S | Un | W | &#10003; | - | [Github](https://github.com/d-ailin/GDN) |
+| Forecasting | GNN | GTA* <a href="#ref21" id="ref21">[21]</a> | 2021 | ST | Semi | - | | - | [Github](https://github.com/zackchen-lb/GTA?tab=readme-ov-file) |
 | Forecasting | GNN | GANF <a href="#ref22" id="ref22">[22]</a> | 2022 | ST | Un | W | | | |
 | Forecasting | HTM | RADM <a href="#ref23" id="ref23">[23]</a> | 2018 | T | Un | W | | - | |
 | Forecasting | Transformer | SAND <a href="#ref24" id="ref24">[24]</a> | 2018 | T | Semi | W | | - | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/sand) |
-| Forecasting | Transformer | GTA* <a href="#ref21" id="ref21">[21]</a> | 2021 | ST | Semi | - | | - | |
+| Forecasting | Transformer | GTA* <a href="#ref21" id="ref21">[21]</a> | 2021 | ST | Semi | - | | - | [Github](https://github.com/zackchen-lb/GTA?tab=readme-ov-file) |
 | Reconstruction | AE | AE/DAE <a href="#ref25" id="ref25">[25]</a> | 2014 | T | Semi | P | | Point | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/dae) |
 | Reconstruction | AE | DAGMM <a href="#ref26" id="ref26">[26]</a> | 2018 | S | Un | P | | Point | |
 | Reconstruction | AE | MSCRED <a href="#ref27" id="ref27">[27]</a> | 2019 | ST | Un | W | &#10003; | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/mscred) |
