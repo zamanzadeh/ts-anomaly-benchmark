@@ -8,7 +8,9 @@ This repository updates the comprehensive list of classic and state-of-the-art m
 - [Shirui Pan](https://scholar.google.com/citations?user=frWRJN4AAAAJ&hl=en) [Griffith University], 
 - [Charu C. Aggarwal](https://scholar.google.com/citations?user=x_wsduUAAAAJ&hl=en) [IBM], and 
 - [Mahsa Salehi](https://scholar.google.com/citations?user=tTxJ1owAAAAJ&hl=en) [Monash University]
-  
+
+![enter image description here](figs/monash-logo-mono.svg)
+
 If you use this repository in your works, please cite the main article:
 
 [-] Zamanzadeh Darban, Z., Webb, G. I., Pan, S., Aggarwal, C. C., & Salehi, M. (2022). Deep Learning for Time Series Anomaly Detection: A Survey. arXiv e-prints. doi:10.48550/ARXIV.2211.05244 [[arXiv](https://arxiv.org/abs/2211.05244)]
