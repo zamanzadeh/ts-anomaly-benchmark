@@ -9,7 +9,7 @@ This repository updates the comprehensive list of classic and state-of-the-art m
 - [Charu C. Aggarwal](https://scholar.google.com/citations?user=x_wsduUAAAAJ&hl=en) [IBM], and 
 - [Mahsa Salehi](https://scholar.google.com/citations?user=tTxJ1owAAAAJ&hl=en) [Monash University]
 
-![enter image description here](figs/monash-logo-mono.svg)
+![enter image description here](monash-logo-mono.svg)
 
 If you use this repository in your works, please cite the main article:
 
