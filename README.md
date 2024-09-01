@@ -383,8 +383,7 @@ representation of time series. In AAAI, Vol. 36. 8980–8987.
 <a href="#ref61" id="ref61">[61]</a> Xiang Zhang, Ziyuan Zhao, Theodoros Tsiligkaridis, and Marinka Zitnik. 2022. Self-supervised contrastive pre-training for time series via
 time-frequency consistency. NeurIPS 35 (2022), 3988–4003.
 
-<a href="#ref62" id="ref62">[62]</a> Zahra Zamanzadeh Darban, Geoffrey I Webb, Shirui Pan, and Mahsa Salehi. 2023. CARLA: A Self-supervised Contrastive Representation Learning
-Approach for Time Series Anomaly Detection. Pattern Recognition (2024).
+<a href="#ref62" id="ref62">[62]</a> Zahra Zamanzadeh Darban, Geoffrey I Webb, Shirui Pan, Charu C Aggarwal, and Mahsa Salehi. 2023. CARLA: Self-supervised contrastive representation learning for time series anomaly detection. Pattern Recognition (2024).
 
 <a href="#ref63" id="ref63">[63]</a> Zahra Zamanzadeh Darban, Geoffrey I Webb, and Mahsa Salehi. 2024. DACAD: Domain Adaptation Contrastive Learning for Anomaly Detection
 in Multivariate Time Series. arXiv preprint arXiv:2404.11269 (2024).
