@@ -123,18 +123,18 @@ If you use this repository in your works, please cite the main article:
 | Forecasting | CNN | TimesNet <a href="#ref57" id="ref57">[57]</a> | 2023 | T | Semi | W | | Subseq | [Github](https://github.com/thuml/TimesNet) |
 | Forecasting | GNN | GDN <a href="#ref20" id="ref20">[20]</a> | 2021 | S | Un | W | &#10003; | - | [Github](https://github.com/d-ailin/GDN) |
 | Forecasting | GNN | GTA* <a href="#ref21" id="ref21">[21]</a> | 2021 | ST | Semi | - | | - | [Github](https://github.com/zackchen-lb/GTA?tab=readme-ov-file) |
-| Forecasting | GNN | GANF <a href="#ref22" id="ref22">[22]</a> | 2022 | ST | Un | W | | | |
+| Forecasting | GNN | GANF <a href="#ref22" id="ref22">[22]</a> | 2022 | ST | Un | W | | | [Github](https://github.com/EnyanDai/GANF) |
 | Forecasting | HTM | RADM <a href="#ref23" id="ref23">[23]</a> | 2018 | T | Un | W | | - | |
 | Forecasting | Transformer | SAND <a href="#ref24" id="ref24">[24]</a> | 2018 | T | Semi | W | | - | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/sand) |
 | Forecasting | Transformer | GTA* <a href="#ref21" id="ref21">[21]</a> | 2021 | ST | Semi | - | | - | [Github](https://github.com/zackchen-lb/GTA?tab=readme-ov-file) |
 | Reconstruction | AE | AE/DAE <a href="#ref25" id="ref25">[25]</a> | 2014 | T | Semi | P | | Point | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/dae) |
-| Reconstruction | AE | DAGMM <a href="#ref26" id="ref26">[26]</a> | 2018 | S | Un | P | | Point | |
+| Reconstruction | AE | DAGMM <a href="#ref26" id="ref26">[26]</a> | 2018 | S | Un | P | | Point | [Github](https://github.com/danieltan07/dagmm) |
 | Reconstruction | AE | MSCRED <a href="#ref27" id="ref27">[27]</a> | 2019 | ST | Un | W | &#10003; | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/mscred) |
-| Reconstruction | AE | USAD <a href="#ref28" id="ref28">[28]</a> | 2020 | T | Un | W | | Point | |
+| Reconstruction | AE | USAD <a href="#ref28" id="ref28">[28]</a> | 2020 | T | Un | W | | Point | [Github](https://github.com/manigalati/usad) |
 | Reconstruction | AE | APAE <a href="#ref29" id="ref29">[29]</a> | 2020 | T | Un | W | | - | |
-| Reconstruction | AE | RANSynCoders <a href="#ref30" id="ref30">[30]</a> | 2021 | ST | Un | P | &#10003; | Point | |
-| Reconstruction | AE | CAE-Ensemble <a href="#ref31" id="ref31">[31]</a> | 2021 | T | Un | W | | Subseq | |
-| Reconstruction | AE | AMSL <a href="#ref32" id="ref32">[32]</a> | 2022 | T | Self | W | | - | |
+| Reconstruction | AE | RANSynCoders <a href="#ref30" id="ref30">[30]</a> | 2021 | ST | Un | P | &#10003; | Point | [Github](https://github.com/eBay/RANSynCoders) |
+| Reconstruction | AE | CAE-Ensemble <a href="#ref31" id="ref31">[31]</a> | 2021 | T | Un | W | | Subseq | [Github](https://github.com/d-gcc/CAE-Ensemble) |
+| Reconstruction | AE | AMSL <a href="#ref32" id="ref32">[32]</a> | 2022 | T | Self | W | | - | [Github](https://github.com/zhangyuxin621/AMSL) |
 | Reconstruction | AE | ContextDA <a href="#ref58" id="ref58">[58]</a> | 2023 | T | Un | W | | Point + Subseq | |
 | Reconstruction | VAE | STORN <a href="#ref35" id="ref35">[35]</a> | 2016 | ST | Un | P | | Point | |
 | Reconstruction | VAE | GGM-VAE <a href="#ref36" id="ref36">[36]</a> | 2018 | T | Un | W | | Subseq | |
