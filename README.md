@@ -13,18 +13,16 @@ This repository updates the comprehensive list of classic and state-of-the-art m
 
 If you use this repository in your works, please cite the main article:
 
-[-] Zamanzadeh Darban, Z., Webb, G. I., Pan, S., Aggarwal, C. C., & Salehi, M. (2022). Deep Learning for Time Series Anomaly Detection: A Survey. arXiv e-prints. doi:10.48550/ARXIV.2211.05244 [[arXiv](https://arxiv.org/abs/2211.05244)]
+[-] Zamanzadeh Darban, Z., Webb, G. I., Pan, S., Aggarwal, C. C., & Salehi, M. (2024). Deep Learning for Time Series Anomaly Detection: A Survey. doi:10.1145/3691338 [[link](https://doi.org/10.1145/3691338)]
 
-	@ARTICLE{2022arXiv221105244Z,
-		author = {Zamanzadeh Darban, Zahra and Webb, Geoffrey I. and Pan, Shirui and Aggarwal, Charu C. and Salehi, Mahsa},
-		title = {Deep Learning for Time Series Anomaly Detection: A Survey},
-		journal = {arXiv e-prints},
-		year = 2022,
-		month = Nov,
-		eid = {arXiv:2211.05244},
-		eprint = {2211.05244},
-		url = {https://arxiv.org/abs/2211.05244},
-		doi = {10.48550/ARXIV.2211.05244},
+	 @ARTICLE{zamanzadeh2022deep,
+		title={Deep learning for time series anomaly detection: A survey},
+		author={Zamanzadeh Darban, Zahra and Webb, Geoffrey I and Pan, Shirui and Aggarwal, Charu and Salehi, Mahsa},
+		journal={ACM Computing Surveys},
+		year={2024},
+		publisher={ACM New York, NY}
+		url = {https://doi.org/10.1145/3691338},
+		doi = {10.1145/3691338}
 	}
 
 
