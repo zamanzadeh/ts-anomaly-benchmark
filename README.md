@@ -155,7 +155,7 @@ If you use this repository in your works, please cite the main article:
 | Reconstruction | GAN | DCT-GAN* <a href="#ref49" id="ref49">[49]</a> | 2021 | T | Un | W | | - | | |
 | Reconstruction | Transformer | Anomaly Transformer <a href="#ref50" id="ref50">[50]</a> | 2021 | T | Un | W | | Subseq | [Github](https://github.com/thuml/Anomaly-Transformer) |
 | Reconstruction | Transformer | DCT-GAN* <a href="#ref49" id="ref49">[49]</a> | 2021 | T | Un | W | | - | |
-| Reconstruction | Transformer | TranAD <a href="#ref51" id="ref51">[51]</a> | 2022 | T | Un | W | &#10003; | Subseq | [Github]((https://github.com/imperial-qore/TranAD) |
+| Reconstruction | Transformer | TranAD <a href="#ref51" id="ref51">[51]</a> | 2022 | T | Un | W | &#10003; | Subseq | [Github](https://github.com/imperial-qore/TranAD) |
 | Reconstruction | Transformer | MT-RVAE* <a href="#ref43" id="ref43">[43]</a> | 2022 | ST | Un | W | | - | |
 | Reconstruction | Transformer | Dual-TF <a href="#ref59" id="ref59">[59]</a> | 2024 | T | Un | W | | Point + Subseq | |
 | Representation | Transformer | TS2Vec <a href="#ref60" id="ref60">[60]</a> | 2022 | T | Self | P | | Point | [Github](https://github.com/zhihanyue/ts2vec) |
