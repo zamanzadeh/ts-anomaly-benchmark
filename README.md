@@ -140,22 +140,22 @@ If you use this repository in your works, please cite the main article:
 | Reconstruction | VAE | GGM-VAE <a href="#ref36" id="ref36">[36]</a> | 2018 | T | Un | W | | Subseq | |
 | Reconstruction | VAE | LSTM-VAE <a href="#ref33" id="ref33">[33]</a> | 2018 | T | Semi | P | | - | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/lstm_vae) |
 | Reconstruction | VAE | OmniAnomaly <a href="#ref34" id="ref34">[34]</a> | 2019 | T | Un | W | &#10003; | Point + Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEvalalgorithms/blob/main/omnianomaly) |
-| Reconstruction | VAE | VELC <a href="#ref39" id="ref39">[39]</a> | 2019 | T | Un | - | | - | |
+| Reconstruction | VAE | VELC <a href="#ref39" id="ref39">[39]</a> | 2019 | T | Un | - | | - | [Github](https://github.com/Vikrant7981/anomaly_detection) |
 | Reconstruction | VAE | SISVAE <a href="#ref37" id="ref37">[37]</a> | 2020 | T | Un | W | | Point | |
-| Reconstruction | VAE | VAE-GAN <a href="#ref38" id="ref38">[38]</a> | 2020 | T | Semi | W | | Point | |
-| Reconstruction | VAE | TopoMAD <a href="#ref40" id="ref40">[40]</a> | 2020 | ST | Un | W | | Subseq | |
+| Reconstruction | VAE | VAE-GAN <a href="#ref38" id="ref38">[38]</a> | 2020 | T | Semi | W | | Point |  |
+| Reconstruction | VAE | TopoMAD <a href="#ref40" id="ref40">[40]</a> | 2020 | ST | Un | W | | Subseq | [Github](https://github.com/QAZASDEDC/TopoMAD) |
 | Reconstruction | VAE | PAD <a href="#ref41" id="ref41">[41]</a> | 2021 | T | Un | W | | Subseq | | |
-| Reconstruction | VAE | InterFusion <a href="#ref42" id="ref42">[42]</a> | 2021 | ST | Un | W | &#10003; | Subseq | |
+| Reconstruction | VAE | InterFusion <a href="#ref42" id="ref42">[42]</a> | 2021 | ST | Un | W | &#10003; | Subseq | [Github](https://github.com/zhhlee/InterFusion) |
 | Reconstruction | VAE | MT-RVAE* <a href="#ref43" id="ref43">[43]</a> | 2022 | ST | Un | W | | - | | |
 | Reconstruction | VAE | RDSMM <a href="#ref44" id="ref44">[44]</a> | 2022 | T | Un | W | | Point + Subseq | |
-| Reconstruction | GAN | MAD-GAN <a href="#ref45" id="ref45">[45]</a> | 2019 | ST | Un | W | | Subseq | |
-| Reconstruction | GAN | BeatGAN <a href="#ref46" id="ref46">[46]</a> | 2019 | T | Un | W | | Subseq | |
+| Reconstruction | GAN | MAD-GAN <a href="#ref45" id="ref45">[45]</a> | 2019 | ST | Un | W | | Subseq | [Github](https://github.com/Guillem96/madgan-pytorch) |
+| Reconstruction | GAN | BeatGAN <a href="#ref46" id="ref46">[46]</a> | 2019 | T | Un | W | | Subseq | [Github](https://github.com/hi-bingo/BeatGAN) |
 | Reconstruction | GAN | DAEMON <a href="#ref47" id="ref47">[47]</a> | 2021 | T | Un | W | &#10003; | Subseq | |
 | Reconstruction | GAN | FGANomaly <a href="#ref48" id="ref48">[48]</a> | 2021 | T | Un | W | | Point + Subseq | |
 | Reconstruction | GAN | DCT-GAN* <a href="#ref49" id="ref49">[49]</a> | 2021 | T | Un | W | | - | | |
-| Reconstruction | Transformer | Anomaly Transformer <a href="#ref50" id="ref50">[50]</a> | 2021 | T | Un | W | | Subseq | |
+| Reconstruction | Transformer | Anomaly Transformer <a href="#ref50" id="ref50">[50]</a> | 2021 | T | Un | W | | Subseq | [Github](https://github.com/thuml/Anomaly-Transformer) |
 | Reconstruction | Transformer | DCT-GAN* <a href="#ref49" id="ref49">[49]</a> | 2021 | T | Un | W | | - | |
-| Reconstruction | Transformer | TranAD <a href="#ref51" id="ref51">[51]</a> | 2022 | T | Un | W | &#10003; | Subseq | |
+| Reconstruction | Transformer | TranAD <a href="#ref51" id="ref51">[51]</a> | 2022 | T | Un | W | &#10003; | Subseq | [Github]((https://github.com/imperial-qore/TranAD) |
 | Reconstruction | Transformer | MT-RVAE* <a href="#ref43" id="ref43">[43]</a> | 2022 | ST | Un | W | | - | |
 | Reconstruction | Transformer | Dual-TF <a href="#ref59" id="ref59">[59]</a> | 2024 | T | Un | W | | Point + Subseq | |
 | Representation | Transformer | TS2Vec <a href="#ref60" id="ref60">[60]</a> | 2022 | T | Self | P | | Point | [Github](https://github.com/zhihanyue/ts2vec) |
@@ -164,11 +164,11 @@ If you use this repository in your works, please cite the main article:
 | Representation | CNN | CARLA <a href="#ref63" id="ref63">[63]</a> | 2024 | ST | Self | W | | Point + Subseq | [Github](https://github.com/zamanzadeh/CARLA) |
 | Representation | CNN | DACAD <a href="#ref64" id="ref64">[64]</a> | 2024 | ST | Self | W | | Point + Subseq | [Github](https://github.com/zamanzadeh/DACAD) |
 | Hybrid | AE | CAE-M <a href="#ref52" id="ref52">[52]</a> | 2021 | ST | Un | W | | Subseq | |
-| Hybrid | AE | NSIBF* <a href="#ref53" id="ref53">[53]</a> | 2021 | T | Un | W | | Subseq | |
+| Hybrid | AE | NSIBF* <a href="#ref53" id="ref53">[53]</a> | 2021 | T | Un | W | | Subseq | [Github](https://github.com/cfeng783/NSIBF) |
 | Hybrid | RNN | TAnoGAN <a href="#ref54" id="ref54">[54]</a> | 2020 | T | Un | W | | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/tanogan) |
-| Hybrid | RNN | NSIBF* <a href="#ref53" id="ref53">[53]</a> | 2021 | T | Un | W | | Subseq | |
+| Hybrid | RNN | NSIBF* <a href="#ref53" id="ref53">[53]</a> | 2021 | T | Un | W | | Subseq | [Github](https://github.com/cfeng783/NSIBF) |
 | Hybrid | GNN | MTAD-GAT <a href="#ref55" id="ref55">[55]</a> | 2020 | ST | Self | W | &#10003; | Subseq | [Github](https://github.com/HPI-Information-Systems/TimeEval-algorithms/blob/main/mtad_gat) |
-| Hybrid | GNN | FuSAGNet <a href="#ref56" id="ref56">[56]</a> | 2022 | ST | Semi | W | | Subseq | |
+| Hybrid | GNN | FuSAGNet <a href="#ref56" id="ref56">[56]</a> | 2022 | ST | Semi | W | | Subseq | [Github](https://github.com/sihohan/FuSAGNet) |
 
 ---
 <sub><a name="Approach">1</a>: Approach. </sub>
