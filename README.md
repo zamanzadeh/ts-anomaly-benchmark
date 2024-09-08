@@ -9,7 +9,7 @@ This repository updates the comprehensive list of classic and state-of-the-art d
 - [Charu C. Aggarwal](https://scholar.google.com/citations?user=x_wsduUAAAAJ&hl=en) [IBM], and 
 - [Mahsa Salehi](https://scholar.google.com/citations?user=tTxJ1owAAAAJ&hl=en) [Monash University]
 
-![enter image description here](monash-logo-mono.svg)
+![enter image description here](figs/monash-logo-mono.svg)
 
 If you use this repository in your works, please cite the main article:
 
@@ -31,6 +31,15 @@ If you use this repository in your works, please cite the main article:
 2. [Current Time Series Anomaly Detection Benchmarks are Flawed and are Creating the Illusion of Progress](https://ieeexplore.ieee.org/abstract/document/9537291), TKDE, 2021.
 3. [Towards a Rigorous Evaluation of Time-Series Anomaly Detection](https://ojs.aaai.org/index.php/AAAI/article/view/20680), AAAI 2022.
 4. [Anomaly detection in time series: a comprehensive evaluation](https://dl.acm.org/doi/abs/10.14778/3538598.3538602), VLDB 2022. 
+
+
+## DL Models for TSAD
+<table style="border-collapse: collapse; border: none;">
+    <tr>
+        <td style="border: none;"><img src="figs/deep_utsad.png" alt="Image 1" width="300"/></td>
+        <td style="border: none;"><img src="figs/deep_mtsad.png" alt="Image 2" width="600"/></td>
+    </tr>
+</table>
 
 
 ## Datasets/Benchmarks for time series anomaly detection
