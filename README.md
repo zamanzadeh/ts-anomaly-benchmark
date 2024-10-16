@@ -15,12 +15,16 @@ If you use this repository in your works, please cite the main article:
 
 [-] Zamanzadeh Darban, Z., Webb, G. I., Pan, S., Aggarwal, C. C., & Salehi, M. (2024). Deep Learning for Time Series Anomaly Detection: A Survey. doi:10.1145/3691338 [[link](https://doi.org/10.1145/3691338)]
 
-	 @ARTICLE{zamanzadeh2022deep,
-		title={Deep learning for time series anomaly detection: A survey},
-		author={Zamanzadeh Darban, Zahra and Webb, Geoffrey I and Pan, Shirui and Aggarwal, Charu and Salehi, Mahsa},
-		journal={ACM Computing Surveys},
-		year={2024},
-		publisher={ACM New York, NY}
+	@article{10.1145/3691338,
+		author = {Zamanzadeh Darban, Zahra and Webb, Geoffrey I. and Pan, Shirui and Aggarwal, Charu and Salehi, Mahsa},
+		title = {Deep Learning for Time Series Anomaly Detection: A Survey},
+		year = {2024},
+		issue_date = {January 2025},
+		publisher = {Association for Computing Machinery},
+		address = {New York, NY, USA},
+		volume = {57},
+		number = {1},
+		issn = {0360-0300},
 		url = {https://doi.org/10.1145/3691338},
 		doi = {10.1145/3691338}
 	}
