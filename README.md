@@ -26,7 +26,11 @@ If you use this repository in your works, please cite the main article:
 		number = {1},
 		issn = {0360-0300},
 		url = {https://doi.org/10.1145/3691338},
-		doi = {10.1145/3691338}
+		doi = {10.1145/3691338},
+		journal = {ACM Comput. Surv.},
+		month = oct,
+		articleno = {15},
+		numpages = {42},
 	}
 
 
